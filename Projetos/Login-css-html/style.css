@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    width: 50px;
+}
+
+.name1,
+select {
+    width: 40vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ffc222;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.idade1,
+select {
+    width: 40vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ffc222;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.email1,
+select {
+    width: 40vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ffc222;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn1 {
+    width: 20vw;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 128px;
+    border: 2px solid #ffc222;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.btn1:hover {
+    background-color: #ffc222;
+    color: white;
+}
+
+select:invalid {
+    color: gray;
+}
