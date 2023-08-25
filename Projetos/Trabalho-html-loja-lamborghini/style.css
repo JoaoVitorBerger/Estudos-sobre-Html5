@@ -1,0 +1,122 @@
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    background-color: black;
+    list-style: none;
+    font: 80% Tahoma;
+}
+
+#menu ul li a {
+    background-color: black;
+    color: #EDEDED;
+    text-decoration: none;
+    border-bottom: 1px solid #EDEDED;
+    padding: 20px 20px;
+    float: left;
+
+}
+
+#menu ul li a:hover {
+    background-color: orange;
+    color: black;
+    border-bottom: 3px solid white;
+
+}
+
+#menu div {
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid #EDEDED;
+    padding: 10px 10px;
+    float: left;
+
+}
+#lamb {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+#servico h3{
+    text-decoration: none;
+
+}
+
+
+#espaco {
+    margin: 150px;
+}
+
+#serv2 img {
+    float: left;
+    width: 600px;
+    height: 600px;
+}
+
+#serv1 img {
+    float: right;
+    width: 600px;
+    height: 600px;
+}
+
+#serv1 img p h1 h2 {
+    border: 100px solid white;
+    margin: 200px;
+    text-align: justify;
+}
+#urus{
+    border: 0px;
+    margin: 1px solid white;
+    float: center;
+    width:100%;
+    height:100%;
+}
+#elemento{
+    border: 0px;
+    margin:1px solid white;
+    float: inline-start;
+    width:100% ;
+    height:100% ;
+}
+#aventador{
+    border: 0px;
+    margin:1px solid white;
+    float: inline-start;
+    width:100%;
+    height:100%;
+}
+ p{
+    text-align: justify;
+    text-decoration: none;
+    
+}
+#form{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    background-image: url(fundolamb.jpg);
+    border-radius:10px ;
+    padding: 60px;
+    width: min-content;
+
+
+
+}
+label{
+    color: #EDEDED;
+}
+#form form h2{
+    color: white;
+}
+.img1{
+	width:100%;
+	height:100%;
+	repeat:no-repeat;
+}
+.img2{
+	width:100%;
+	height:100%;
+	background-color:black;
+}

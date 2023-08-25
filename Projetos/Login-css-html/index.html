@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>cadastro do usuário</title>
+    <meta charset="utf-8">
+</head>
+
+<body background="gradiente.jpg" style="background-repeat: no-repeat">
+    <h2 style="margin-left: 27vw; color:white;">
+        <font face="Verdana">Cadastro do Cliente</font>
+    </h2>
+    <style>
+        .name1,
+        select {
+            width: 35vw;
+            padding: 12px 20px;
+            margin: px 0;
+            display: inline-block;
+            border: solid #1e0bd0;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        .idade1,
+        select {
+            width: 35vw;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: solid #1e0bd0;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        .email1,
+        select {
+            width: 35vw;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: solid #1e0bd0;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        .btn1 {
+            font-family: Verdana;
+            width: 15vw;
+            color: black;
+            padding: 14px 20px;
+            margin: 8px 135px;
+            border: solid #1e0bd0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+        
+        .btn1:hover {
+            background-color: #1e0bd0;
+            color: white;
+        }
+        
+        .block2 {
+            background-image: url("gradiente2.jpg");
+            border-radius: 6px;
+            padding: 20px;
+            width: 35vw;
+            margin-left: 27vw;
+        }
+        
+        select:invalid {
+            color: gray;
+        }
+    </style>
+
+    <div class="block2">
+        <form name="formulario1" method="post"></form>
+        <label for="fname" style="font-family: Verdana; font-weight: bold; color: #191919;">Nome Completo</label><br>
+        <input class="name1" type="text" id="fname" name="firstname" placeholder="Seu Nome...">
+        <br>
+        <br>
+
+        <label for="idade" style="font-family: Verdana; font-weight: bold; color: #191919;">Idade</label><br>
+        <input class="idade1" type="text" id="idade" name="idade" placeholder="Sua idade...">
+        <br>
+        <br>
+
+        <label for="email" style="font-family: Verdana; font-weight: bold; color: #191919;">E-mail</label><br>
+        <input class="email1" type="email" id="email" name="email" placeholder="Seu E-mail...">
+        <br>
+        <br>
+        <br>
+
+        <label for="sexo" style="font-family: Verdana; font-weight: bold; color: #191919;">Gênero</label><br>
+        <input type="radio" id="masc" name="sexo" value="Masculino">
+        <label for="Masculino" style="font-family: verdana; font-weight: bold; color: #191919;">Masculino</label>
+        <input type="radio" id="fem" name="Feminino">
+        <label for="Feminino" style="font-family: Verdana; font-weight: bold; color: #191919;">Feminino</label>
+        <br>
+        <br>
+        <br>
+
+        <label for="uf" style="font-family: Verdana; font-weight: bold; color: #191919;">Estado de origem</label><br>
+        <select id="uf" name="uf" required>
+                <option value="" disabled selected>Selecione seu Estado...</option>
+                        <option value="Acre">AC</option>
+                        <option value="Alagoas">AL</option>
+                        <option value="Amapa">AP</option>
+                        <option value="Amazonas">AM</option>
+                        <option value="Bahia">BA</option>
+                <option value="Ceara">CE</option>
+                <option value="Distrito_federal">DF</option>
+                <option value="Espirito_Santo">ES</option>
+                <option value="Goias">GO</option>
+                <option value="Maranhao">MA</option>
+                <option value="Mato_Grosso">MT</option>
+                <option value="Mato_Grosso_do_Sul">MS</option>
+                <option value="Minas_Gerais">MG</option>
+                <option value="Para">PA</option>
+                <option value="Paraiba">PB</option>
+                <option value="Parana">PR</option>
+                <option value="Pernambuco">PE</option>
+                <option value="Piaui">PI</option>
+                <option value="Rio_de_Janeiro">RJ</option>
+                <option value="Rio_Grande_do_Norte">RN</option>
+                <option value="Rio_Grande_do_Sul">RS</option>
+                <option value="Rondonia">RO</option>
+                <option value="Roraima">RR</option>
+                <option value="Santa_Catarina">SC</option>
+                <option value="Sao_Paulo">SP</option>
+                <option value="Sergipe">SE</option>
+                <option value="Tocantins">TO</option>
+              </select>
+        <br>
+        <br>
+        <a href="index.html"><input class="btn1" type="submit" value="Enviar" onclick="alert ('Obrigado por se cadastrar em nossa loja')"></a><br>
+    </div>
+</body>
